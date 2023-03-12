@@ -18,7 +18,7 @@ const QuestionsDetails = () => {
   const dispatch = useDispatch();
   const location = useLocation();
 
-  const url = "https://stackover-clone.onrender.com";
+  const url = "https://stackoverflow-production.netlify.app";
   const shareme = url + location.pathname;
   const handlePostAnswer = (e, answerLength) => {
     e.preventDefault();

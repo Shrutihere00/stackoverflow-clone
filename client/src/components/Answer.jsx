@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { deleteAnswer } from "../actions/question";
 const Answer = ({ item }) => {
   const location = useLocation();
-  const url = "https://stackover-clone.onrender.com";
+  const url = "https://stackoverflow-production.netlify.app";
   const shareme = url + location.pathname;
   const User = useSelector((state) => state.currentUserReducer);
   const dispatch = useDispatch();
