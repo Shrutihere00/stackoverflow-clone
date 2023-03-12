@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { deleteAnswer } from "../actions/question";
 const Answer = ({ item }) => {
   const location = useLocation();
-  const url = "http://localhost/3000";
+  const url = "https://stackover-clone.onrender.com";
   const shareme = url + location.pathname;
   const User = useSelector((state) => state.currentUserReducer);
   const dispatch = useDispatch();
